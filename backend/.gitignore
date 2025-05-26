@@ -1,0 +1,16 @@
+# Node
+node_modules/
+dist/
+*.log
+
+# Env
+.env
+
+# Build
+*.tsbuildinfo
+
+# Lockfiles (elige uno si usas npm o yarn, no todos)
+package-lock*.json
+
+# OS files
+.DS_Store
