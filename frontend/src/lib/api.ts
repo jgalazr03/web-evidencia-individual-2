@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const API = process.env.NEXT_PUBLIC_API_URL!;
+console.log("API base:", API);
 
 export const fetchPolls = () => axios.get(API).then(res => res.data);
 export const createPoll = (question: string, options: string[]) =>
